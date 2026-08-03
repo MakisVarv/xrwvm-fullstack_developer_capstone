@@ -1,0 +1,8 @@
+[flake8]
+exclude =
+    .git,
+    __pycache__,
+    server/djangoapp/migrations,
+    server/djangoenv,
+    server/frontend
+max-line-length = 120
